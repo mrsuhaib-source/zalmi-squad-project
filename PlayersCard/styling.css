@@ -1,0 +1,55 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+
+
+#Container{
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    background-color: black;
+  gap: 10%;
+
+    
+}
+.header{
+    color: yellow;
+    font-size: xx-large;
+    justify-self: center;
+    padding: 20px;
+}
+
+.card1{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(255, 217, 0);
+    border-radius: 20px;
+    transition: 0.3s;
+   
+}
+
+.image{
+  display: flex;
+  justify-content: center;
+  border-radius: 50%;
+}
+
+.image img{
+    
+   display: flow-root
+}
+
+.card1:hover{
+    background-color: black;
+    color: yellow;
+
+   
+}
+
+ 
