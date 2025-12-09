@@ -1,0 +1,117 @@
+*{
+    padding: 0;
+    margin: 0;
+    /* #feffff  #def2f1  */
+    box-sizing: border-box;
+   font-family: "Nunito", sans-serif;
+}
+
+body{
+    background-color: #3aafa9;
+}
+
+.maincontainer{
+  
+  padding: 1.5rem;
+  text-align: center;
+  
+  
+}
+
+
+.headline{
+    font-size: 1.2rem;
+    padding-top: 0.3rem;
+}
+.childcontainer p{
+    font-size: 1.3rem;
+   align-self: center;
+}
+
+.cardcontainer{
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    gap: 1rem;
+}
+
+.card1{
+    height: 380px;
+    background-color: #d5fffc;
+    width: 240px;
+    border-radius: 1rem;
+    padding: 0rem;
+}
+
+.imageparent{
+  padding: 1rem;
+    text-align: center;
+}
+
+.image1{
+    height: 120px;
+    align-items: center;
+    clip-path: circle();
+}
+
+.para1{
+    text-align: center;
+    padding: 0 1rem;
+}
+.buttonparent{
+    text-align: center;
+    padding: 1rem;
+}
+
+.button{
+    padding: auto;
+    height: 40px;
+    width: 100px;
+    background-color: #3aafa9;
+    text-align: center;
+    border-radius: 1rem;
+}
+
+.card2{
+    height: 380px;
+    background-color: #d5fffc;
+    width: 240px;
+    border-radius: 1rem;
+    padding: 0rem;
+}
+
+.card3{
+    height: 380px;
+    background-color: #d5fffc;
+    width: 240px;
+    border-radius: 1rem;
+    padding: 0rem;
+}
+
+
+
+.button:hover {
+    background-color: #d5fffc;
+
+}
+
+
+.card1:hover{
+    background-color: #3c9b98;
+    border: 1px solid #17252a;
+}
+
+.card2:hover{
+    background-color: #3c9b98;
+    border: 1px solid #17252a;
+}
+
+.card3:hover{
+    background-color: #3c9b98;
+    border: 1px solid #17252a;
+}
+
+
+@media screen and (max-width:810px) {
+    
+}
